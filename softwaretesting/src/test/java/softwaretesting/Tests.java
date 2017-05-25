@@ -19,8 +19,8 @@ public class Tests {
 
     @After
     public void closeBrowser() {
-        //driver.close();
-        //driver.quit();
+        driver.close();
+        driver.quit();
     }
 
     @Test
